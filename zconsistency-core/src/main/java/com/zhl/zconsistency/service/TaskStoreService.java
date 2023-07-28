@@ -18,4 +18,5 @@ public interface TaskStoreService {
 
     List<ConsistencyTaskInstance> listByUnFinishTask();
 
+    void initTask(ConsistencyTaskInstance taskInstance);
 }
